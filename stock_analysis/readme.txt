@@ -1,9 +1,9 @@
 # Written by Jin Kak Jung
 
 Step 1
-; import csv data to MongoDB
+; Import csv data to MongoDB
 
-mongoimport mstf.csv --type csv --headerline -d marketdata -c minibars
+mongoimport mstf.csv --type csv --headerline -d marketdata -c minbars
 
 Step 2
 ; Install MongoDB Hadoop Connector - PySpark
